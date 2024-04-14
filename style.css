@@ -62,11 +62,17 @@ body
 
     display: inline;
 
-    padding: .4vw .4vw .6vw .4vw;
+    padding: .4vw .4vw .4vw .4vw;
 
     border: .1vw solid black;
     border-radius: .25vw;
     background-color: darkgrey;
+}
+#counter
+{
+    font-size: 1vw;
+
+    padding-left: .25vw;
 }
 .button
 {
