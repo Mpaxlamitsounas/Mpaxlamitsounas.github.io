@@ -1,0 +1,46 @@
+* {
+    text-align: center;
+}
+p {
+    font-size: 1vw;
+}
+body {
+    background-image: url("./xp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header {
+    font-size: 1vw;
+}
+#contacts {
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: 50%;
+    font-size: 2vw;
+    margin: 0 auto 0 auto;
+}
+.list {
+    padding-inline-start: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin: 0% 2.5% 0% 2.5%;
+}
+.list * {
+    text-align: left;
+}
+#clicker {
+    border: 0.1vw solid black;
+    padding:  0.4vw 0.4vw 0.6vw 0.4vw;
+    display: inline;
+    background-color: darkgrey;
+    border-radius: 0.25vw;
+    font-size: 1.2vw;
+}
+.button {
+    background-color: darkgrey;
+    border-color: black;
+    font-size: 1vw;
+}
