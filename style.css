@@ -5,6 +5,7 @@ p {
     font-size: 1vw;
 }
 body {
+    /* i wish we had wide jxl support */
     background-image: url("./xp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
