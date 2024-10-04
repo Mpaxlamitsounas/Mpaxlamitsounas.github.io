@@ -17,14 +17,14 @@ body {
 
 #scale {
 	top: 40%;
-	font-size: 6vmin;
+	font-size: 5.9vmin;
 	font-family: sans-serif;
 	color: cornflowerblue;
 	padding: 0.5vmax 1vmax 0.5vmax 1vmax;
 }
 
 #icantsee {
-	width: 40vmax;
+	width: 35vmax;
 	font-size: 6vmin;
 	text-align: center;
 	position: fixed;
