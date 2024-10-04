@@ -29,7 +29,7 @@ body {
 }
 
 #icantsee {
-    font-size: max(1.2vw, 1.2vh);
+    font-size: max(1.2vw, 2.0vh);
 
     position: fixed;
     right: 1vmax;
