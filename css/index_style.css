@@ -1,35 +1,34 @@
-*
-{
+* {
     text-align: center;
 
     color: black;
 }
-p
-{
+
+p {
     font-size: 1vw;
 }
-body
-{
+
+body {
     /* i pray you don't have dark mode enabled */
     min-height: 100vh;
     min-width: 100vw;
     margin: 0;
     /* i wish we had wide jxl support */
 
-    background-image: url('./xp.jpg');
+    background-image: url('../img/bliss.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-#header
-{
+
+#header {
     font-size: 2vw;
 
     margin-bottom: 1vh;
     padding-top: 1vh;
 }
-#contacts
-{
+
+#contacts {
     font-size: 2vw;
 
     width: 50%;
@@ -40,8 +39,8 @@ body
     border: 2px solid black;
     background-color: rgba(128, 128, 128, .5);
 }
-.list
-{
+
+.list {
     margin: 0 2.5% 0 2.5%;
     margin-bottom: 0;
 
@@ -49,12 +48,12 @@ body
 
     padding-inline-start: 0;
 }
-.list *
-{
+
+.list * {
     text-align: left;
 }
-#clicker
-{
+
+#clicker {
     font-size: 1.2vw;
 
     position: fixed;
@@ -69,14 +68,14 @@ body
     border-radius: .25vw;
     background-color: darkgrey;
 }
-#counter
-{
+
+#counter {
     font-size: 1vw;
 
     padding-left: .25vw;
 }
-.button
-{
+
+.button {
     font-size: 1vw;
 
     border-color: black;

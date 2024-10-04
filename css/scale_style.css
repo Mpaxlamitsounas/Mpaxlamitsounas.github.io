@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    background-image: url('../img/tulips.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.centered {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scale {
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: cornflowerblue;
+    text-shadow: 1px 1px 3px black;
+}
