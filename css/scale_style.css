@@ -9,10 +9,10 @@ body {
 }
 
 .centered {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #scale {
@@ -20,4 +20,26 @@ body {
     font-family: sans-serif;
     color: cornflowerblue;
     text-shadow: 1px 1px 3px black;
+    border: 0px solid black;
+    background-color: rgba(128, 128, 128, 0.0);
+    margin: 0 auto 0 auto;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    padding: 0.5vh 1vh 0.5vh 1vh;
+}
+
+#icantsee {
+    font-size: 1.2vw;
+
+    position: fixed;
+    right: 1vmax;
+    bottom: 1vmax;
+
+    display: inline;
+
+    padding: .4vw .4vw .4vw .4vw;
+
+    border: .1vw solid black;
+    border-radius: .25vw;
+    background-color: darkgrey;
 }
